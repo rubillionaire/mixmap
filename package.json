@@ -2,6 +2,16 @@
   "name": "@rubenrodriguez/mixmap",
   "version": "1.6.1",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./map": "./lib/map.js",
+    "./draw": "./lib/draw.js"
+  },
+  "browser": {
+    ".": "./index.js",
+    "./map": "./lib/map.js",
+    "./draw": "./lib/draw.js"
+  },
   "description": "interactive webgl mapping library emphasizing direct access to the rendering pipeline",
   "dependencies": {
     "bel": "^5.0.0",
