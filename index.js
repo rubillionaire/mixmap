@@ -35,3 +35,9 @@ MixMap.prototype.create = function (opts) {
   this._maps.push(m)
   return m
 }
+
+MixMap.prototype.draw = function () {
+  for (var i = 0; i < this._maps.length; i++) {
+    this._maps[i].draw()
+  }
+}
