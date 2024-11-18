@@ -1,4 +1,4 @@
-var rcom = require('regl-component')
+var rcom = require('@rubenrodriguez/regl-component')
 var Nano = require('cache-component')
 var Map = require('./lib/map.js')
 
