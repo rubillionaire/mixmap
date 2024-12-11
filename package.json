@@ -14,12 +14,12 @@
   },
   "description": "interactive webgl mapping library emphasizing direct access to the rendering pipeline",
   "dependencies": {
+    "@rubenrodriguez/regl-component": "^1.2.10",
     "bel": "^5.0.0",
     "box-intersect": "^1.0.1",
     "cache-component": "^5.1.0",
     "defined": "^1.0.0",
     "on-load": "^4.0.2",
-    "@rubenrodriguez/regl-component": "^1.2.9",
     "sheetify": "^7.3.3"
   },
   "devDependencies": {
