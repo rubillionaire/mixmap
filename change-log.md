@@ -1,3 +1,8 @@
+# 1.9.0
+
+- [map] minor: emit `viewbox:internal:start` and `viewbox:internal:end` to track progress of the internal processing that mixmap does for layer management. This can help authors batch operations.
+
+
 # 1.8.0
 
 - [map] minor: emit `draw:start` in addition to draw:end. this happens after the regl canvas is cleared.
